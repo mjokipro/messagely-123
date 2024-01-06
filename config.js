@@ -7,7 +7,7 @@ require("dotenv").config();
 if (process.env.NODE_ENV === "test") {
   DB_URI = "postgresql://postgres:newpassword@localhost/messagely_test";
 } else {
-  DB_URI = "postgresql://postgres:newpassword@localhost/messagely";
+  DB_URI = "postgres://eakbiszi:EBooSpWs-Pe8mN7979VlT18oxL4Pqj8W@mahmud.db.elephantsql.com/eakbiszi";
 }
 
 const SECRET_KEY = process.env.SECRET_KEY || "secret";
